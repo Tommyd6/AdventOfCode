@@ -26,11 +26,5 @@ with open(file_path, 'r') as file:
             if(LItemp>LI):
                 LI=LItemp
                 LN=Value
-        # print(line)
-        # print(FN)
-        # print(LN)
-        # # Wait for user input with a prompt
-        # user_input = input("Please enter something: ")
-
         SumofCallibration=SumofCallibration+FN*10+LN
 print(SumofCallibration)
